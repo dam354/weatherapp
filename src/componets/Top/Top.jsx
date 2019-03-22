@@ -89,7 +89,6 @@ class Top extends Component {
                     data-placement={placement}
                   >
                     <div className="form-container">
-                      <label htmlFor="location-name">Location Name</label>
                       <input
                         id="location-name"
                         type="text"
@@ -97,7 +96,7 @@ class Top extends Component {
                         onChange={this.onLocationNameChange.bind(this)}
                       />
                       <button
-                        className="btn btn-select-location"
+                        className="btn btn-select-location-in"
                         onClick={this.onSelectCity.bind(this)}
                       >
                         Select

@@ -50,8 +50,7 @@ html, body, #root{
 }
 
 .popup-container {
-  display: flex;
-  flex-direction: column;
+ 
   position: absolute;
   will-change: transform;
   top: -60px;
@@ -67,8 +66,11 @@ html, body, #root{
 }
 
 .form-container {
+  display: flex;
+  flex-direction: column;
   padding: 6px;
   width: 100%;
+  display:flex
   label {
     font-size: 11px;
   }
