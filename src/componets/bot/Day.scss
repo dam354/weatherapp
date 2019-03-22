@@ -1,0 +1,33 @@
+.day {
+  border:1px solid;
+  border-bottom: 5px solid;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  .date {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    // margin: 10px 0;
+    text-align: center;
+  }
+  .temp {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    // margin: 10px 0;
+    text-align: center;
+  }
+}
+.day:first-child {
+  border-bottom-left-radius: 5px;
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+}
+.day:last-child {
+  border-bottom-right-radius: 5px;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+}
